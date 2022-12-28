@@ -51,8 +51,8 @@ int main(){
 
     quick_sort(arr , 0 , size-1);
 
-    for(int i : arr){
-        cout<<i<<"  "; 
+    for(int i = 0 ; i<13 ; i++){
+        cout<<arr[i]<<"  "; 
     }
     return 0;
 }
